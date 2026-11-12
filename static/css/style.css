@@ -1,14 +1,28 @@
+@font-face {
+    font-family: 'MedievalSharp';
+    src: url('../font/MedievalSharp-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../font/Lato-Regular.ttf') format('truetype');
+}
+
 :root {
-  --fond: #ffeac9;
-  --texte: #163866;
-  --titre: #6e1515;
+    --fond: #ffeac9;
+    --texte: #163866;
+    --titre: #6e1515;
 }
 
 body {
-  background-color: var(--fond);
-  color: var(--texte);
+    font-family: 'Lato', sans-serif;
+    background-color: var(--fond);
+    color: var(--texte);
 }
 
-h1, h2, h3 {
-  color: var(--titre);
+h1,
+h2,
+h3 {
+    font-family: 'MedievalSharp', serif;
+    color: var(--titre);
 }
