@@ -1,0 +1,14 @@
+:root {
+  --fond: #ffeac9;
+  --texte: #163866;
+  --titre: #6e1515;
+}
+
+body {
+  background-color: var(--fond);
+  color: var(--texte);
+}
+
+h1, h2, h3 {
+  color: var(--titre);
+}
