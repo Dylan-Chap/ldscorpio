@@ -31,3 +31,23 @@ h3 {
     width: 200px;
     height: auto;
 }
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex:auto;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
