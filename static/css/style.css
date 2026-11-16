@@ -26,3 +26,8 @@ h3 {
     font-family: 'MedievalSharp', serif;
     color: var(--titre);
 }
+
+.logo {
+    width: 200px;
+    height: auto;
+}
