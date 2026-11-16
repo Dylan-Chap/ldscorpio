@@ -11,3 +11,8 @@ def client():
 def test_index(client):
     response = client.get("/")
     assert response.status_code == 200
+
+
+def test_tuto_ck3(client):
+    response = client.get("/tuto-ck3")
+    assert response.status_code == 200
