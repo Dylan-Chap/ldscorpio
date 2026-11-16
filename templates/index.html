@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <title>LDScorpio -Accueil</title>
-</head>
-
-<body>
-    <header>
-        <img src="{{ url_for('static', filename='img/logo-ldscorpio.svg') }}" alt="logo de ldscorpio">
-        <nav>
-            <ul>
-                <li><a href="{{ url_for('index') }}">Accueil</a></li>
-                <li><a href="{{ url_for('tuto_ck3') }}">Tuto CK3</a></li>
-            </ul>
-        </nav>
-    </header>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block title %}Accueil{% endblock %}
+{% block content %}
+    <h1>Bienvenue sur LDScorpio</h1>
+{% endblock %}
