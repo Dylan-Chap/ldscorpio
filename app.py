@@ -6,6 +6,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/tuto-ck3')
+def tuto_ck3():
+    return render_template('tuto_ck3.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
     
