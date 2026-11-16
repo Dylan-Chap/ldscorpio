@@ -51,3 +51,20 @@ nav ul {
     gap: 20px;
     justify-content: center;
 }
+
+header nav a {
+    background-color: var(--titre);
+    color: var(--fond);
+    padding: 10px 25px;
+    border-radius: 15%;
+}
+
+footer {
+    background-color: var(--texte);
+    color: var(--fond);
+    text-align: center ;
+}
+
+footer nav a{
+     color: var(--fond);
+}
