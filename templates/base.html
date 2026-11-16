@@ -19,7 +19,12 @@
     </header>
     <main>{% block content %}{% endblock %}</main>
     <footer>
-
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('mentions_legales') }}">Mentions légales</a></li>
+                <li><a href="{{ url_for('confidentialite') }}">Politique de confidentialité</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>

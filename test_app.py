@@ -16,3 +16,13 @@ def test_index(client):
 def test_tuto_ck3(client):
     response = client.get("/tuto-ck3")
     assert response.status_code == 200
+
+
+def test_mentions_legales(client):
+    response = client.get("/mentions-legales")
+    assert response.status_code == 200
+
+
+def test_confidentialite(client):
+    response = client.get("/confidentialite")
+    assert response.status_code == 200
