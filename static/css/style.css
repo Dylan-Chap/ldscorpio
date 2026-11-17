@@ -70,6 +70,8 @@ footer nav a{
 section.presentation {
     display : flex;
     gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 div.reseaux {
