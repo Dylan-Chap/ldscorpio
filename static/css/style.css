@@ -87,3 +87,54 @@ section.accroche_tuto {
     padding: 10px 25px;
     border-radius: 15%;
 }
+
+section.planning {
+    font-family: Lato, sans-serif;
+    max-width: 520px;
+}
+
+.planning ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.planning li {
+    display: flex;
+    margin-bottom: 8px;
+    border: 2px solid var(--texte);
+    border-radius: 6px;
+    height: 40px;
+}
+
+.jour {
+    background: var(--texte);
+    color: var(--fond);
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.frise {
+    flex: 1;
+    position: relative;
+}
+
+.creneau {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    background: var(--titre);
+    color: var(--fond);
+    border-radius: 4px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+section.planning h2 {
+    text-align: center;
+}
