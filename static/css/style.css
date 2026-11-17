@@ -88,9 +88,17 @@ section.accroche_tuto {
     border-radius: 15%;
 }
 
+.planning_banniere {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
 section.planning {
     font-family: Lato, sans-serif;
     max-width: 520px;
+    flex: 1;
 }
 
 .planning ul {
@@ -137,4 +145,21 @@ section.planning {
 
 section.planning h2 {
     text-align: center;
+}
+
+section.banniere {
+    text-align: center;
+    position: relative;
+}
+
+section.banniere img {
+    max-width: 350px;
+    height: auto;
+}
+
+.banniere a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }

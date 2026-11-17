@@ -42,24 +42,30 @@
     <h2>Tu cherches à t'améliorer sur CK3 ?</h2>
     <a class="bouton" href="{{ url_for('tuto_ck3') }}">Voir les tutos</a>
 </section>
-<section class="planning">
-    <h2>Planning des lives</h2>
-    <ul>
-        <li><span class="jour">Lundi</span><div class="frise">
-            <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
-        <li><span class="jour">Mardi</span><div class="frise">
-            <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
-        <li><span class="jour">Mercredi</span><div class="frise">
-            </div></li>
-        <li><span class="jour">Jeudi</span><div class="frise">
-            <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
-        <li><span class="jour">Vendredi</span><div class="frise">
-            <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
-        <li><span class="jour">Samedi</span><div class="frise">
-            <span class="creneau" style="left:11.8%; width: 17.6%;">9h-12h</span></div></li>
-        <li><span class="jour">Dimanche</span><div class="frise">
-            </div></li>
-    </ul>
-    <p><small>*Lives en pause pendant ma formation</small></p>
-</section>
+<div class="planning_banniere">
+    <section class="planning">
+        <h2>Planning des lives</h2>
+        <ul>
+            <li><span class="jour">Lundi</span><div class="frise">
+                <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
+            <li><span class="jour">Mardi</span><div class="frise">
+                <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
+            <li><span class="jour">Mercredi</span><div class="frise">
+                </div></li>
+            <li><span class="jour">Jeudi</span><div class="frise">
+                <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
+            <li><span class="jour">Vendredi</span><div class="frise">
+                <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
+            <li><span class="jour">Samedi</span><div class="frise">
+                <span class="creneau" style="left:11.8%; width: 17.6%;">9h-12h</span></div></li>
+            <li><span class="jour">Dimanche</span><div class="frise">
+                </div></li>
+        </ul>
+        <p><small>*Lives en pause pendant ma formation</small></p>
+    </section>
+    <section class="banniere">
+        <img src="{{ url_for('static', filename='img/banniere_ck3.png') }}" alt="banniere de partenariat instant gaming">
+        <a class="bouton" href="https://www.instant-gaming.com/?igr=gamer-c56515" target="_blank" rel="sponsored">Découvrir</a>
+    </section>
+</div>
 {% endblock %}
