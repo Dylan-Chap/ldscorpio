@@ -68,3 +68,17 @@ footer {
 footer nav a{
      color: var(--fond);
 }
+
+.logo_reseaux {
+    width: 25px;
+    height: auto;
+}
+
+section.presentation {
+    display : flex;
+    gap: 40px;
+}
+
+div.reseaux {
+    flex-shrink: 0;
+}
