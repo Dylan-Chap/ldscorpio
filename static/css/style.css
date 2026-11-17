@@ -52,13 +52,6 @@ nav ul {
     justify-content: center;
 }
 
-header nav a {
-    background-color: var(--titre);
-    color: var(--fond);
-    padding: 10px 25px;
-    border-radius: 15%;
-}
-
 footer {
     background-color: var(--texte);
     color: var(--fond);
@@ -81,4 +74,16 @@ section.presentation {
 
 div.reseaux {
     flex-shrink: 0;
+}
+
+section.accroche_tuto {
+    text-align: center;
+}
+
+.bouton {
+    text-decoration: none;
+    background-color: var(--titre);
+    color: var(--fond);
+    padding: 10px 25px;
+    border-radius: 15%;
 }
