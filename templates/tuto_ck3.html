@@ -2,9 +2,13 @@
 {% block title %}Tuto CK3{% endblock %}
 {% block content %}
     <h1 class="titre_ck3">Tutos Crusader Kings 3</h1>
-    <section class="carousel"></section>
+    <section class="carousel">
+        <a href="#tuto1"><img src="{{ url_for('static', filename='img/choix_perso.png') }}" alt="image de debut de partie ck3"></a>
+        <a href="#tuto2"><img class="principale" src="{{ url_for('static', filename='img/interface.png') }}" alt="image de l'interface ck3"></a>
+        <a href="#tuto3"><img src="{{ url_for('static', filename='img/vasseaux.png') }}" alt="image de gestion vasseaux ck3"></a>
+    </section>
     <section class="video_tuto">
-        <article>
+        <article id="tuto1">
             <h2>Choisir son personnage et ses objectifs de début</h2>
             <div class="video_text">
                 <iframe
@@ -18,7 +22,7 @@
                 <p>Ici sera écrit un petit texte qui expliquera tres rapidement ma video tuto.</p>
             </div>
         </article>
-        <article>
+        <article id="tuto2">
             <h2>Comprendre l’interface et les ressources principales</h2>
             <div class="video_text">
                 <iframe
@@ -32,7 +36,7 @@
                 <p>Ici sera écrit un petit texte qui expliquera tres rapidement ma video tuto.</p>
             </div>
         </article>
-        <article>
+        <article id="tuto3">
             <h2>Gérer ses vassaux sans se faire trahir</h2>
             <div class="video_text">
                 <iframe

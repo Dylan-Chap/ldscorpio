@@ -60,6 +60,8 @@ footer {
     background-color: var(--texte);
     color: var(--fond);
     text-align: center ;
+    margin-top: 10px;
+    padding: 1px;
 }
 
 footer nav a{
@@ -199,4 +201,26 @@ section.banniere img {
 
 .titre_ck3 {
     text-align: center;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.carousel img {
+    width: 250px;
+    height: auto;
+}
+
+.carousel .principale {
+    width: 500px;
+    height: auto;
+    margin: 0 -40px;
+    position: relative;
+    z-index: 2;
 }
