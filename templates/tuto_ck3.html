@@ -3,9 +3,11 @@
 {% block content %}
     <h1 class="titre_ck3">Tutos Crusader Kings 3</h1>
     <section class="carousel">
+        <button id="precedent">&lsaquo;</button>
         <a href="#tuto1"><img src="{{ url_for('static', filename='img/choix_perso.png') }}" alt="image de debut de partie ck3"></a>
         <a href="#tuto2"><img class="principale" src="{{ url_for('static', filename='img/interface.png') }}" alt="image de l'interface ck3"></a>
         <a href="#tuto3"><img src="{{ url_for('static', filename='img/vasseaux.png') }}" alt="image de gestion vasseaux ck3"></a>
+        <button id="suivant">&rsaquo;</button>
     </section>
     <section class="video_tuto">
         <article id="tuto1">
@@ -52,4 +54,5 @@
         </article>
     </section>
     <section class="formulaire"></section>
+    <script src="{{ url_for('static', filename='js/carousel.js') }}"></script>
 {% endblock %}
