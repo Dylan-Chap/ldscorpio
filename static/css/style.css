@@ -175,3 +175,28 @@ section.banniere img {
     left: 50%;
     transform: translateX(-50%);
 }
+
+.video_tuto {
+    text-align: center;
+}
+
+.video_tuto h2 {
+    background: var(--texte);
+    color: var(--fond);
+    border-radius: 6px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.video_text {
+    display: flex;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.titre_ck3 {
+    text-align: center;
+}
