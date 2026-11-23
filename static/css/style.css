@@ -236,3 +236,9 @@ section.banniere img {
     padding: 10px;
     text-align: center;
 }
+
+#cookie-banner a {
+    color: var(--fond);
+    display: block;
+    margin: 10px 0;
+}
