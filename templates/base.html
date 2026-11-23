@@ -18,6 +18,16 @@
         </nav>
     </header>
     <main>{% block content %}{% endblock %}</main>
+    <div id="cookie-banner">
+        <p>
+            Ce site utilise des cookies de Twitch
+            et YouTube pour afficher les vidéos.
+            Vous pouvez accepter ou refuser.
+        </p>
+        <a href="{{ url_for('confidentialite') }}">Politique de confidentialité</a>
+        <button class="bouton" id="accept-cookies">Accepter</button>
+        <button class="bouton" id="refuse-cookies">Refuser</button>
+    </div>
     <footer>
         <nav>
             <ul>

@@ -224,3 +224,15 @@ section.banniere img {
     position: relative;
     z-index: 2;
 }
+
+#cookie-banner {
+    background: var(--texte);
+    color: var(--fond);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 10px;
+    text-align: center;
+}
