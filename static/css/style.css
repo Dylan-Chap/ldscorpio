@@ -242,3 +242,11 @@ section.banniere img {
     display: block;
     margin: 10px 0;
 }
+
+#manage-cookies {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
