@@ -54,6 +54,7 @@ nav ul {
     display: flex;
     gap: 20px;
     justify-content: center;
+    padding: 0;
 }
 
 footer {
@@ -249,4 +250,13 @@ section.banniere img {
     border: none;
     font: inherit;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    .logo {
+        position: static;
+    }
 }
