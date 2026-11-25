@@ -301,4 +301,11 @@ section.banniere img {
         width: 100%;
         aspect-ratio: 16/9;
     }
+    .carousel a:has(img:not(.principale)) {
+        display: none;
+    }
+    .carousel .principale {
+        width: 100%;
+        margin: 0;
+    }
 }
