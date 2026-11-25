@@ -226,6 +226,17 @@ section.banniere img {
     z-index: 2;
 }
 
+#precedent, #suivant {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--titre);
+    color: var(--fond);
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
 #cookie-banner {
     background: var(--texte);
     color: var(--fond);
