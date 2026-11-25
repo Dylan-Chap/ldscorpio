@@ -293,6 +293,7 @@ section.banniere img {
     }
     .creneau {
         font-size: 10px;
+        min-width: 45px;
     }
     .video_text {
         flex-direction: column-reverse;
