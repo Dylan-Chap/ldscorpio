@@ -294,4 +294,11 @@ section.banniere img {
     .creneau {
         font-size: 10px;
     }
+    .video_text {
+        flex-direction: column-reverse;
+    }
+    .video-yt {
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
 }
