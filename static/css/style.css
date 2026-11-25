@@ -259,4 +259,23 @@ section.banniere img {
     .logo {
         position: static;
     }
+    .presentation {
+        flex-direction: column;
+    }
+    .presentation h1 {
+        text-align: center;
+    }
+    .reseaux {
+        text-align: center;
+        margin-top: -50px;
+    }
+    .planning_banniere {
+        flex-direction: column;
+    }
+    .jour {
+        width: 90px;
+    }
+    .creneau {
+        font-size: 10px;
+    }
 }
