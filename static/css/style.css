@@ -265,9 +265,14 @@ section.banniere img {
     .presentation h1 {
         text-align: center;
     }
+    .presentation p {
+        margin-bottom: 0;
+    }
     .reseaux {
         text-align: center;
-        margin-top: -50px;
+    }
+    .reseaux h2 {
+        margin-top: 0;
     }
     .planning_banniere {
         flex-direction: column;
