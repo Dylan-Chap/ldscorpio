@@ -271,6 +271,17 @@ section.banniere img {
     background: var(--texte);
 }
 
+#back-to-top {
+    background: var(--titre);
+    color: var(--fond);
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
