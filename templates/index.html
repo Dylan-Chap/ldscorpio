@@ -17,54 +17,54 @@
         chacun est le bienvenu ! Viens me rejoindre en live ou découvre mes tutos.
     </p>
     </div>
-    <div class="reseaux">
+    <div class="social_media">
         <h2>Mes réseaux sociaux</h2>
         <nav>
             <ul>
                 <li><a href="https://www.instagram.com/domainedescorpio/" target="_blank">
-                        <img class="logo_reseaux" src="{{ url_for('static', filename='img/instagram.svg') }}" alt="instagram de ldscorpio">
+                        <img class="social_media_logos" src="{{ url_for('static', filename='img/instagram.svg') }}" alt="Instagram de LDScorpio">
                     </a>
                 </li>
                 <li><a href="https://www.tiktok.com/@ledomainedescorpio?lang=fr" target="_blank">
-                        <img class="logo_reseaux" src="{{ url_for('static', filename='img/tiktok.svg') }}" alt="tiktok de ldscorpio">
+                        <img class="social_media_logos" src="{{ url_for('static', filename='img/tiktok.svg') }}" alt="Tiktok de LDScorpio">
                     </a>
                 </li>
                 <li><a href="https://discord.gg/hw9H4VkZeD" target="_blank">
-                        <img class="logo_reseaux" src="{{ url_for('static', filename='img/discord.svg') }}" alt="discord de ldscorpio">
+                        <img class="social_media_logos" src="{{ url_for('static', filename='img/discord.svg') }}" alt="Discord de LDScorpio">
                     </a>
                 </li>
             </ul>
         </nav>
     </div>
 </section>
-<section class="accroche_tuto">
+<section class="tutorial_hook">
     <h2>Tu cherches à t'améliorer sur CK3 ?</h2>
-    <a class="bouton" href="{{ url_for('ck3_tutorial') }}">Voir les tutos</a>
+    <a class="button" href="{{ url_for('ck3_tutorial') }}">Voir les tutos</a>
 </section>
-<div class="planning_banniere">
-    <section class="planning">
+<div class="schedule_banner">
+    <section class="schedule">
         <h2>Planning des lives</h2>
         <ul>
-            <li><span class="jour">Lundi</span><div class="frise">
-                <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
-            <li><span class="jour">Mardi</span><div class="frise">
-                <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
-            <li><span class="jour">Mercredi</span><div class="frise">
+            <li><span class="day">Lundi</span><div class="timeline">
+                <span class="time_slot" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
+            <li><span class="day">Mardi</span><div class="timeline">
+                <span class="time_slot" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
+            <li><span class="day">Mercredi</span><div class="timeline">
                 </div></li>
-            <li><span class="jour">Jeudi</span><div class="frise">
-                <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
-            <li><span class="jour">Vendredi</span><div class="frise">
-                <span class="creneau" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
-            <li><span class="jour">Samedi</span><div class="frise">
-                <span class="creneau" style="left:11.8%; width: 17.6%;">9h-12h</span></div></li>
-            <li><span class="jour">Dimanche</span><div class="frise">
+            <li><span class="day">Jeudi</span><div class="timeline">
+                <span class="time_slot" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
+            <li><span class="day">Vendredi</span><div class="timeline">
+                <span class="time_slot" style="left:64.7%; width: 11.8%;">18h-20h</span></div></li>
+            <li><span class="day">Samedi</span><div class="timeline">
+                <span class="time_slot" style="left:11.8%; width: 17.6%;">9h-12h</span></div></li>
+            <li><span class="day">Dimanche</span><div class="timeline">
                 </div></li>
         </ul>
         <p><small>*Lives en pause pendant ma formation</small></p>
     </section>
-    <section class="banniere">
-        <img src="{{ url_for('static', filename='img/ck3_banner.png') }}" alt="banniere de partenariat instant gaming">
-        <a class="bouton" href="https://www.instant-gaming.com/?igr=gamer-c56515" target="_blank" rel="sponsored">Découvrir</a>
+    <section class="banner">
+        <img src="{{ url_for('static', filename='img/ck3_banner.png') }}" alt="Bannière de partenariat Instant Gaming">
+        <a class="button" href="https://www.instant-gaming.com/?igr=gamer-c56515" target="_blank" rel="sponsored">Découvrir</a>
     </section>
 </div>
 {% endblock %}
