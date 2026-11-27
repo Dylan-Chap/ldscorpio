@@ -1,36 +1,36 @@
-console.log("carrousel chargé");
-const boutonSuivant = document.getElementById("suivant");
-const boutonPrecedent = document.getElementById("precedent");
+console.log("carousel loaded");
+const nextButton = document.getElementById("next");
+const previousButton = document.getElementById("previous");
 const carousel = document.querySelector(".carousel");
 
-boutonSuivant.addEventListener("click", suivant);
+nextButton.addEventListener("click", next);
 
-boutonPrecedent.addEventListener("click", precedent);
+previousButton.addEventListener("click", previous);
 
-function suivant(){
-    const lien  = carousel.querySelector("a");
-    carousel.insertBefore(lien, boutonSuivant);
-    carousel.querySelector(".principale").classList.remove("principale");
-    carousel.querySelectorAll("a img")[1].classList.add("principale");
+function next(){
+    const link  = carousel.querySelector("a");
+    carousel.insertBefore(link, nextButton);
+    carousel.querySelector(".main").classList.remove("main");
+    carousel.querySelectorAll("a img")[1].classList.add("main");
 }
 
-function precedent() {
-    const lien  = carousel.querySelectorAll("a")[2];
-    carousel.insertBefore(lien, carousel.querySelector("a"));
-    carousel.querySelector(".principale").classList.remove("principale");
-    carousel.querySelectorAll("a img")[1].classList.add("principale");
+function previous() {
+    const link  = carousel.querySelectorAll("a")[2];
+    carousel.insertBefore(link, carousel.querySelector("a"));
+    carousel.querySelector(".main").classList.remove("main");
+    carousel.querySelectorAll("a img")[1].classList.add("main");
 }
 
-carousel.querySelectorAll("a").forEach(function (lien) {
-    lien.addEventListener("click", function (event) {
-        if (lien.querySelector("img").classList.contains("principale")) {
+carousel.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function (event) {
+        if (link.querySelector("img").classList.contains("main")) {
             return;
         }
         event.preventDefault();
-        if (lien === carousel.querySelector("a")) {
-            precedent();
+        if (link === carousel.querySelector("a")) {
+            previous();
         } else {
-            suivant();
+            next();
         }
     });
 });

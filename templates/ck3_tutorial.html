@@ -1,16 +1,16 @@
 {% extends 'base.html' %}
 {% block title %}Tuto CK3{% endblock %}
 {% block content %}
-    <h1 class="titre_ck3">Tutos Crusader Kings 3</h1>
+    <h1 class="ck3_title">Tutos Crusader Kings 3</h1>
     <section class="carousel">
-        <button id="precedent">&lsaquo;</button>
-        <a href="#tuto1"><img src="{{ url_for('static', filename='img/choix_perso.png') }}" alt="image de debut de partie ck3"></a>
-        <a href="#tuto2"><img class="principale" src="{{ url_for('static', filename='img/interface.png') }}" alt="image de l'interface ck3"></a>
-        <a href="#tuto3"><img src="{{ url_for('static', filename='img/vasseaux.png') }}" alt="image de gestion vasseaux ck3"></a>
-        <button id="suivant">&rsaquo;</button>
+        <button id="previous">&lsaquo;</button>
+        <a href="#tutorial1"><img src="{{ url_for('static', filename='img/character_choice.png') }}" alt="Image de debut de partie ck3"></a>
+        <a href="#tutorial2"><img class="main" src="{{ url_for('static', filename='img/interface.png') }}" alt="Image de l'interface ck3"></a>
+        <a href="#tutorial3"><img src="{{ url_for('static', filename='img/vassals.png') }}" alt="Image de gestion vasseaux ck3"></a>
+        <button id="next">&rsaquo;</button>
     </section>
-    <section class="video_tuto">
-        <article id="tuto1">
+    <section class="tutorial_video">
+        <article id="tutorial1">
             <h2>Choisir son personnage et ses objectifs de début</h2>
             <div class="video_text">
                 <iframe class="video-yt"
@@ -24,7 +24,7 @@
                 <p>Ici sera écrit un petit texte qui expliquera tres rapidement ma video tuto.</p>
             </div>
         </article>
-        <article id="tuto2">
+        <article id="tutorial2">
             <h2>Comprendre l’interface et les ressources principales</h2>
             <div class="video_text">
                 <iframe class="video-yt"
@@ -38,7 +38,7 @@
                 <p>Ici sera écrit un petit texte qui expliquera tres rapidement ma video tuto.</p>
             </div>
         </article>
-        <article id="tuto3">
+        <article id="tutorial3">
             <h2>Gérer ses vassaux sans se faire trahir</h2>
             <div class="video_text">
                 <iframe class="video-yt"
@@ -53,7 +53,7 @@
             </div>
         </article>
     </section>
-    <section class="formulaire">
+    <section class="form_container">
         <iframe data-tally-src="https://tally.so/embed/Vpz26J?alignLeft=1&hideTitle=1&dynamicHeight=1" loading="lazy" width="100%" height="488" frameborder="0" marginheight="0" marginwidth="0" title="Question form"></iframe>
         <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
     </section>

@@ -1,3 +1,3 @@
-const yearSpan = document.getElementById("annee");
+const yearSpan = document.getElementById("year");
 
 yearSpan.textContent = new Date().getFullYear();
