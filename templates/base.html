@@ -13,7 +13,7 @@
         <nav>
             <ul>
                 <li><a class="bouton" href="{{ url_for('index') }}">Accueil</a></li>
-                <li><a class="bouton" href="{{ url_for('tuto_ck3') }}">Tuto CK3</a></li>
+                <li><a class="bouton" href="{{ url_for('ck3_tutorial') }}">Tuto CK3</a></li>
             </ul>
         </nav>
     </header>
@@ -24,15 +24,15 @@
             et YouTube pour afficher les vidéos.
             Vous pouvez accepter ou refuser.
         </p>
-        <a href="{{ url_for('confidentialite') }}">Politique de confidentialité</a>
+        <a href="{{ url_for('privacy') }}">Politique de confidentialité</a>
         <button class="bouton" id="accept-cookies">Accepter</button>
         <button class="bouton" id="refuse-cookies">Refuser</button>
     </div>
     <footer>
         <nav>
             <ul>
-                <li><a href="{{ url_for('mentions_legales') }}">Mentions légales</a></li>
-                <li><a href="{{ url_for('confidentialite') }}">Politique de confidentialité</a></li>
+                <li><a href="{{ url_for('legal_notice') }}">Mentions légales</a></li>
+                <li><a href="{{ url_for('privacy') }}">Politique de confidentialité</a></li>
                 <li><button id="manage-cookies">Gérer les cookies</button></li>
             </ul>
         </nav>

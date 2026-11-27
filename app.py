@@ -8,19 +8,19 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/tuto-ck3")
-def tuto_ck3():
-    return render_template("tuto_ck3.html")
+@app.route("/ck3_tutorial")
+def ck3_tutorial():
+    return render_template("ck3_tutorial.html")
 
 
-@app.route("/mentions-legales")
-def mentions_legales():
-    return render_template("mentions_legales.html")
+@app.route("/legal_notice")
+def legal_notice():
+    return render_template("legal_notice.html")
 
 
-@app.route("/confidentialite")
-def confidentialite():
-    return render_template("confidentialite.html")
+@app.route("/privacy")
+def privacy():
+    return render_template("privacy.html")
 
 
 if __name__ == "__main__":
